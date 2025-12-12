@@ -14,6 +14,9 @@ This folder contains all Nmap scans replicated from the classroom practical sess
 3. Service Detection + Aggressive Scan Command: nmap -p21 -sV -A -T4 10.6.6.23 Purpose: Detects services, versions, OS, traceroute, and runs scripts.
    screenshot:
 
+![Service Aggressive Scan](./service_aggresive.png)
+
+4. 
 
 
 
