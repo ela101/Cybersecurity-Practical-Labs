@@ -15,18 +15,18 @@ cybersecurity-Practical-Labs
 │ ├── host-discovery.png
 │ ├── os-fingerprint.png
 │ ├── service-detection.png
-│ ├── README.md
+│ ├── Read.md
 │
 ├── scapy/
 │ ├── ping-google.png
 │ ├── interface-sniff.png
-│ ├── README.md
+│ ├── Read.md
 │
 └── README.md (this file)
 
 ## Quick Links
-- [Nmap Lab Documentation](./nmap/README.md)  
-- [Scapy Lab Documentation](./scapy/README.md)  
+- [Nmap Lab Documentation](./nmap/Readme.md)  
+- [Scapy Lab Documentation](./scapy/Readme.md)  
 
 ## Skills Demonstrated
 ✔ Host and network discovery  
