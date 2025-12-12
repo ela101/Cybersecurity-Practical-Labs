@@ -2,9 +2,7 @@
 
 ## Objectives
 In this lab, you will use Scapy, a Python-based packet manipulation tool, to craft custom packets. These custom packets will be used to perform reconnaissance on a target system.
--Investigate the Scapy Tool.
 -Use Scapy to Sniff Network Traffic.
--Create and Send an ICMP Packet.
 -Create and Send TCP SYN Packets.
 
 ## Use Scapy to Sniff Network Traffic
@@ -28,5 +26,22 @@ In this lab, you will use Scapy, a Python-based packet manipulation tool, to cra
 
    ![Packets Read](./packets.png)
 
-## Create and Send an ICMP Packet
+## Create and Send a TCP SYN Packet
+In this part, I will use Scapy to determine if port 445, a Microsoft Windows drive share port, is open on the target system at 10.6.6.23.
+
+1. In the original Scapy terminal window, begin a packet capture on the internal interface attached to the 10.6.6.0/24 network. Use the interface name.
+   >>> sniff(iface="br-internal")
+
+2. Navigate to the second terminal window. Create and send a TCP SYN packet using the command shown.
+
+   ![Tcp Sent](./tcp.png)
+
+4. In the original Scapy terminal window, stop the packet capture by pressing CTRL-C. The output should be similar to that shown.
+
+   ![Tcp Captured](./tcp_captured.png)
+
+5. View the captured TCP packets using the nsummary() function. Display the detail of the TCP packet that was returned from the target computer at 10.6.6.23.
+>>> a[packet number]
+
+   ![View Packet](./view_packet.png)
 
