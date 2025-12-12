@@ -9,7 +9,7 @@ This repository contains the complete documentation and replication of the Nmap 
 - Maintain a clean, professional, and easy-to-follow lab repository  
 
 ## Repository Structure
-cybersecurity-labs/
+cybersecurity-Practical-Labs
 │
 ├── nmap/
 │ ├── host-discovery.png
