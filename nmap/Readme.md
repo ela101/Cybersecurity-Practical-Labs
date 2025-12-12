@@ -1,6 +1,11 @@
 # Nmap Practical Lab Documentation
 This folder contains all Nmap scans replicated from the classroom practical session, including screenshots, summaries, and explanations of each command.
 
+## Objectives
+Nmap is a powerful open-source tool for network mapping and discovery. In this lab, you will use Nmap as part of your active reconnaissance strategy.
+
+- Perform Basic Nmap Scans
+
 1. Host Discovery Scan Command: nmap -sn 10.6.6.0/24 Purpose: Performs a ping sweep to identify active hosts in the subnet.
    Screenshot:
 
