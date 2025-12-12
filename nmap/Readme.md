@@ -6,4 +6,9 @@ Screenshot:
 
 ![Host Discovery Scan](./host-discovery.png)
 
+OS Fingerprinting Command: sudo nmap -O 10.6.6.23 Purpose: Identifies operating system using stack fingerprinting. 
+screenshot:
+
+![OS Discovery Scan](./os-discovery.png)
+
 
