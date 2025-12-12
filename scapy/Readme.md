@@ -15,7 +15,14 @@ In this lab, you will use Scapy, a Python-based packet manipulation tool, to cra
 
    ![Sniff Function](sniff.png)
 
-3. Open a second terminal window and ping an internet address lets take www.cisco.com
+3. Open firefox browser and search an internet address lets take www.cisco.com
 
-   ![Ping Cisco](./ping.png)
+4. Return to the terminal window that is running the Scapy tool. Press CTRL-C to stop the capture. You should receive output which looks like to what is shown here:
 
+   ![Captured Packet](./captured.png)
+   
+5. View the captured traffic as you did in Step 1d.
+>>> a=_
+>>> a.summary()
+
+   ![Packets Read](./packets.png)
