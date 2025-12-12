@@ -7,6 +7,7 @@ In this lab, you will use Scapy, a Python-based packet manipulation tool, to cra
 -Create and Send an ICMP Packet.
 -Create and Send TCP SYN Packets.
 
+## Use Scapy to Sniff Network Traffic
 1. Launch Scapy sudo su scapy
 
    ![Scapy Launch](scapy.png)
@@ -26,3 +27,6 @@ In this lab, you will use Scapy, a Python-based packet manipulation tool, to cra
 >>> a.summary()
 
    ![Packets Read](./packets.png)
+
+## Create and Send an ICMP Packet
+
